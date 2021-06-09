@@ -1,4 +1,5 @@
 (async () => {
+    //here the generated wasm file is within the 'out' dir - depending on where your module is locate please feel free to change the path
     const codePromise = fetch('../out/main.wasm')
     const {
         instance
